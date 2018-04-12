@@ -15,13 +15,13 @@ def match(possibles)
     #seems to be good until here
 
     if letters.sort == wordy_letters.sort
-      anagram = letters.join
-      anagrams << anagram
+      gram = letters.join
+      grams << gram
       #binding.pry
     end
-    #anagrams
+    grams
   end
-  anagrams
+  #grams
 end
 
 end
