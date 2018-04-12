@@ -19,9 +19,10 @@ def match(possibles)
 
     end
     #grams
-    #binding.pry
+
   end
   grams
+  binding.pry
 end
 
 end
