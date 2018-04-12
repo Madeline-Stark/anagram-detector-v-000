@@ -18,10 +18,10 @@ def match(possibles)
       grams << gram
 
     end
-    grams
+    #grams
     #binding.pry
   end
-  #grams
+  grams
 end
 
 end
