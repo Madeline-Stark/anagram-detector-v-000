@@ -8,19 +8,18 @@ def initialize(word)
 end
 
 def match(possibles)
+  grams = []
   possibles.each do |string|
-    grams = []
     letters = string.split("")
     wordy_letters = word.split("")
     #seems to be good until here
     if letters.sort == wordy_letters.sort
       gram = letters.join
       grams << gram
-
     end
-    #grams
+    grams
     #binding.pry
-  end  
+  end
 end
 
 end
