@@ -9,7 +9,7 @@ end
 
 def match(possibles)
   possibles.each do |string|
-    anagrams = []
+    grams = []
     letters = string.split("")
     wordy_letters = word.split("")
     #seems to be good until here
