@@ -17,11 +17,11 @@ def match(possibles)
     if letters.sort == wordy_letters.sort
       anagram = letters.join
       anagrams << anagram
-      binding.pry
+      #binding.pry
     end
     #anagrams
   end
-  anagrams 
+  anagrams
 end
 
 end
