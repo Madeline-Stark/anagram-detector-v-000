@@ -13,7 +13,7 @@ def match(possibles)
     letters = string.split("")
     wordy_letters = word.split("")
     #seems to be good until here
-    
+
     if letters.sort == wordy_letters.sort
       anagram = letters.join
       anagrams << anagram
