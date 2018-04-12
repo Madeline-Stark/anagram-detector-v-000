@@ -19,8 +19,9 @@ def match(possibles)
       anagrams << anagram
       binding.pry
     end
-    anagrams
+    #anagrams
   end
+  anagrams 
 end
 
 end
