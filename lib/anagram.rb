@@ -17,9 +17,9 @@ def match(possibles)
       gram = letters.join
       grams << gram
     end
-    grams
     #binding.pry
   end
+  grams
 end
 
 end
