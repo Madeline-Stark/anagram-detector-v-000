@@ -16,9 +16,10 @@ def match(possibles)
     if letters.sort == wordy_letters.sort
       gram = letters.join
       grams << gram
-      #binding.pry
+
     end
     grams
+    binding.pry
   end
   #grams
 end
